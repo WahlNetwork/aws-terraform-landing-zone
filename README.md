@@ -1,10 +1,12 @@
 # Terraform AWS Infrastructure Module 🚀
 
-This Terraform module sets up and manages various AWS resources for a sandbox environment. Below is a description of the resources being created and managed by this module.
+👋Welcome innovators!
+
+[In this comprehensive video tutorial](https://youtu.be/PASG0NTKUQA?si=A6ngP_xhJLRLP1tA), you will learn how to get started with AWS Cloud and Terraform to build an enterprise-like landing zone for a secure, low-cost environment to develop with Terraform. We'll guide you through setting up AWS Control Tower, Identity and Access Management, and creating a sandbox account, ensuring you have a safe and controlled area for learning and development. You'll also learn about budget management, single sign-on setup, and using AWS organizations for policy management. Plus, dive deep into Terraform basics, including setting up state management, migrating local state to remote state, and making resource modifications using your new infrastructure as code skills. Perfect for beginners looking to master AWS and Terraform essentials!
 
 ## Commands
 
-These commands are used in the [YouTube video](https://youtu.be/PASG0NTKUQA?si=A6ngP_xhJLRLP1tA):
+The following commands are referenced in the [video](https://youtu.be/PASG0NTKUQA?si=A6ngP_xhJLRLP1tA) and [slides](https://www.slideshare.net/slideshow/getting-started-with-aws-enterprise-landing-zone-for-terraform-learning-development-pdf/276123193):
 
 ```bash
 terraform init
@@ -18,6 +20,8 @@ terraform init --backend-config="inputs/sandbox.backend"
 ```
 
 ## Resources 📦
+
+This Terraform module sets up and manages various AWS resources for a sandbox environment. Below is a description of the resources being created and managed by this module.
 
 ### Budgets and Billing 💰
 
