@@ -4,6 +4,16 @@
 
 [In this comprehensive video tutorial](https://youtu.be/PASG0NTKUQA?si=A6ngP_xhJLRLP1tA), you will learn how to get started with AWS Cloud and Terraform to build an enterprise-like landing zone for a secure, low-cost environment to develop with Terraform. We'll guide you through setting up AWS Control Tower, Identity and Access Management, and creating a sandbox account, ensuring you have a safe and controlled area for learning and development. You'll also learn about budget management, single sign-on setup, and using AWS organizations for policy management. Plus, dive deep into Terraform basics, including setting up state management, migrating local state to remote state, and making resource modifications using your new infrastructure as code skills. Perfect for beginners looking to master AWS and Terraform essentials!
 
+- [Commands](#commands)
+- [Resources 📦](#resources-)
+  - [Budgets and Billing 💰](#budgets-and-billing-)
+  - [Terraform Bootstrap Resources 🛠️](#terraform-bootstrap-resources-️)
+- [Architecture Diagram 🏗️](#architecture-diagram-️)
+- [Outputs 📤](#outputs-)
+- [Providers 🌐](#providers-)
+- [Backend Configuration 🗄️](#backend-configuration-️)
+- [Variables 🔧](#variables-)
+
 ## Commands
 
 The following commands are referenced in the [video](https://youtu.be/PASG0NTKUQA?si=A6ngP_xhJLRLP1tA) and [slides](https://www.slideshare.net/slideshow/getting-started-with-aws-enterprise-landing-zone-for-terraform-learning-development-pdf/276123193):
