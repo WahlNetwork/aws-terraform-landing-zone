@@ -2,6 +2,21 @@
 
 This Terraform module sets up and manages various AWS resources for a sandbox environment. Below is a description of the resources being created and managed by this module.
 
+## Commands
+
+These commands are used in the [YouTube video](https://youtu.be/PASG0NTKUQA?si=A6ngP_xhJLRLP1tA):
+
+```bash
+terraform init
+
+terraform plan --var-file="inputs/sandbox.tfvars"
+
+terraform apply --var-file="inputs/sandbox.tfvars"
+
+terraform init --backend-config="inputs/sandbox.backend"
+
+```
+
 ## Resources 📦
 
 ### Budgets and Billing 💰
